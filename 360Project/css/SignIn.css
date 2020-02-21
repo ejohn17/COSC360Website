@@ -1,0 +1,45 @@
+fieldset{
+    margin: 10%;
+    margin-top: 2%;
+    border: solid 0.1em #0D1363;
+}
+section{
+    padding: 1%;
+    margin: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #FFDB79;
+}
+section h1{
+    position: relative;
+    left: 40%;
+    color: white;
+    font-size: 250%;
+    text-shadow: 0.1em 0.1em 0.1em black;
+}
+p{
+    height: 2em;
+    margin: 4%;
+    font-size: 150%;
+}
+input[type=text], input[type=password]{
+    width: 95%;
+    padding: 1%;
+    border: 3px solid #0D1363;
+    border-radius: 4px;
+    font-size: 75%;
+}
+input[type=submit]{
+    width: 20%;
+    position: relative;
+    left: 40%;
+    padding: 1%;
+    border-radius: 5%;
+    background-color: #FFDB79;
+}
+p a{
+   font-size: 70%; 
+}
+html{
+    font-family: Helvetica, Times, serif;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+    <html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Sign In</title>
+        <link rel="stylesheet" href="css/SignIn.css" />
+        <script type="text/javascript" src="project.js"></script>
+    </head>
+    <body>
+        <header>
+            <section>
+                <h1>Sign In</h1>
+            </section>
+        </header>
+        <form method="GET" action="http://www.randyconnolly.com/tests/process.php" name="myForm" onsubmit="return validate()">
+            <fieldset>
+                <p><label>Enter Username<br></label><input type="text" id="username" placeholder="Username" autocomplete="off"/></p>
+                <p><label>Enter Password<br></label><input type="password" id="pw" placeholder="Password" autocomplete="off"/></p>
+                <p><label>Show Password</label><input type="checkbox" name="check" onclick="showPass()" autocomplete="off"/></p>
+                <p><a href="#">Forgot Your Password?</a></p>
+                <p><input type="submit" name="submit" value="Submit"/>
+            </fieldset>
+        </form>   
+    </body>
+    </html>

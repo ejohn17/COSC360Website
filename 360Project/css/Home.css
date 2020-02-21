@@ -1,0 +1,110 @@
+ header{
+    padding: 2%;
+    background-color: #FFDB79;
+    margin: 0%;
+}
+
+
+#in{
+    position: absolute;
+    right: 2%;
+    top: 4%;
+}
+#up{
+    position: absolute;
+    right: 7%;
+    top: 4%;
+}
+
+body{
+    margin: 0em;
+    background-color: #0D1363;
+}
+section{
+    background-color: #2A329D;
+}
+
+nav input{
+    border: 0;
+    font-size: 0.9vw;
+    line-height: 200%;
+    border-radius: 0.5em;
+    background-image: radial-gradient(farthest-corner, white ,darkgray 90%);
+}
+nav input:hover{
+    background-image: radial-gradient(farthest-corner, white, gray);
+}
+#left{
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    width: 28%;
+    color: white;
+    margin: 2%;
+    height: 80%;
+    overflow: hidden;
+    border-radius: 1em;
+    font-size: 1vw;
+}
+#right{
+    position: absolute;
+    top: 10%;
+    right: 0%;
+    width: 28%;
+    overflow: hidden;
+    color: white;
+    margin: 2%;
+    height: 80%;
+    border-radius: 1em;
+    font-size: 1vw;
+}
+#middle{
+    position: absolute;
+    top: 10%;
+    width: 34%;
+    overflow: hidden;
+    margin-left: 33%;
+    margin-right: 30%;
+    margin-top: 2%;
+    color: white;
+    height: 80%;
+    border-radius: 1em;
+    font-size: 1vw;
+}
+footer{
+    background-color: #FFDB79;
+    position: absolute;
+    top: 105%;
+    width: 100%;
+
+}
+section p{
+    padding: 4%;
+    font-size: 150%;
+}
+nav h1{
+    position: absolute;
+    top: -1%;
+    left: 46%;
+    letter-spacing: 0.25em;
+    color: white;
+    font-size: 3vw;
+    text-shadow: 0.1em 0.1em 0.1em black;
+}
+html{
+    font-family: Courier, Times, serif;
+}
+
+#middle input{
+    padding: 3%;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    border-radius: 1em;
+    font-size: 100%;
+    background-image: radial-gradient(circle at center, #FFDB79, white 170%);
+    border: 0;
+}
+#middle input:hover{
+    background-image: radial-gradient(circle at center, #FFDB79, black 170%);
+}
